@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+h1{
+    padding-bottom: 20px;
+}
+img{
+    height: 250px;
+    width: 85%;
+    border-radius: 15px;
+    margin: 10px;
+}
+.product{
+    background-color: white;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 25px;
+}
+.product:hover{
+    box-shadow: 10px 7px 8px gray;
+}
+#iphone-page{
+    display: none;
+}
+#macbook-page{
+    display: none;
+}
+#watch-page{
+    display: none;
+}
+.details-img{
+    height: 500px;
+    width: 85%;
+}
+details{
+    
+    text-align: left;
+}
+button{
+    margin-bottom: 7px;
+}
+.view{
+    margin: 100px 0px 60px 30px;
+    padding: 15px;
+    width: 85%;
+    background-color: white;
+    border-radius: 15px;
+}
+.M-products{
+    text-align: right;
+    font-size: 22px;
+}
+.counter-btn{
+    background-color: white;
+    padding: 0px 7px;
+    margin: 4px;
+    color: black;
+    border-radius: 3px;
+}
+.submitBtn{
+    display: none;
+    width: 100%;
+}
